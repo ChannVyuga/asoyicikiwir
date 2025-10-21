@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  transition: all 0.3s ease;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(to right, #2e8b57, #2f7c50, #16ef74 );
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  animation: gradientMove 10s ease infinite;
+  background-size: 400% 400%;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+nav {
+  background-color: #3cb371;
+  padding: 10px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #349d63;
+  color: white;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #2e8b57;
+}
+
+.produk {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+  justify-items: center;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  padding: 10px;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+  max-width: 220px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 5px;
+  max-height: 250px;
+}
+
+.card h3 {
+  margin: 5px 0;
+}
+.card p {
+  margin: 0 0 10px 0;
+}
+
+.img-wrapper {
+  width: 100%;
+  padding-top: calc(4 / 3 * 100%);
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.img-wrapper img {
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  object-fit: cover;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #3cb371;
+}
+
+footer {
+  position: fixed;
+  text-align: center;
+  background-color: #2e8b57;
+  color: white;
+  padding: 12px 0;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background-color: #3cb371;
+}
+
+.btn {
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#tentang {
+  padding: 60px 20px;
+}
+
+#beranda {
+  padding: 60px 20px;
+}
+
+.btncntc {
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btncntc {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}

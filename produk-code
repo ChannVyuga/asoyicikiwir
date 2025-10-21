@@ -1,0 +1,41 @@
+    /<div class="card">
+        <img src="https://via.placeholder.com/200x150" alt="Makanan Kucing" />
+        <h3>Makanan Kucing</h3>
+        <p>Rp15.000</p>
+        <a href="popup1.html" class="btn">Beli</a>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/200x150" alt="Pasir Kucing" />
+      <h3>Pasir Kucing</h3>
+      <p>Rp30.000</p>
+      <a href="popup1.html" class="btn">Beli</a>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/200x150" alt="Tempat Makan" />
+        <h3>Tempat Makan</h3>
+        <p>Rp35.000</p>
+        <a href="popup1.html" class="btn">Beli</a>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/200x150" alt="Tempat Makan" />
+        <h3>Tempat Makan</h3>
+        <p>Rp35.000</p>
+        <a href="popup1.html" class="btn">Beli</a>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/200x150" alt="Tempat Makan" />
+        <h3>Tempat Makan</h3>
+        <p>Rp35.000</p>
+        <a href="popup1.html" class="btn">Beli</a>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/200x150" alt="Tempat Makan" />
+        <h3>Tempat Makan</h3>
+        <p>Rp35.000</p>
+        <a href="popup1.html" class="btn">Beli</a>
+    </div>

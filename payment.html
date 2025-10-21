@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chann Petshop - Checkout</title>
+  <link rel="stylesheet" href="payment.css">
+<body>
+
+  <div class="container">
+    <h2>Checkout - Chann Petshop</h2>
+
+    <div class="summary">
+      <p><strong>Produk:</strong> Makanan Kucing</p>
+      <p><strong>Harga:</strong> Rp25.000</p>
+    </div>
+
+    <div class="form-group">
+      <label for="name">Nama</label>
+      <input type="text" id="name" placeholder="Masukkan nama kamu">
+    </div>
+
+    <div class="form-group">
+      <label for="address">Alamat</label>
+      <textarea id="address" rows="2" placeholder="Alamat pengiriman"></textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="payment">Metode Pembayaran</label>
+      <select id="payment">
+        <option value="">-- pilih metode --</option>
+        <option value="COD">COD</option>
+        <option value="Transfer">Transfer Bank</option>
+        <option value="E-Wallet">E-Wallet</option>
+      </select>
+    </div>
+
+    <a href="p-success.html" class="tombol">Bayar Sekarang!</a>
+  </div>
+</body>
+</html>
